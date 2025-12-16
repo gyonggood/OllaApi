@@ -9,12 +9,12 @@ using Npgsql;
 var builder = WebApplication.CreateBuilder(args);
 
 // === ПОДКЛЮЧЕНИЕ К SUPABASE (PostgreSQL) ===
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+var connectionString = builder.Configuration["DATABASE_URL"]
     ?? builder.Configuration.GetConnectionString("Default");
 
 if (string.IsNullOrEmpty(connectionString))
 {
-    throw new InvalidOperationException("Connection string is missing!");
+    throw new InvalidOperationException("Connection string is missing! Check DATABASE_URL in environment variables.");
 }
 
 builder.Services.AddDbContext<AppDbContext>(options =>
