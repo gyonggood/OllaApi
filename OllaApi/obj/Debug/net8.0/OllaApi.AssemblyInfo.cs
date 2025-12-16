@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OllaApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb64911079f3ef35c662e2ab7350dc7778825b59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7678b9a5fe57959fcb58e6b085c5e7dd7f00861a")]
 [assembly: System.Reflection.AssemblyProductAttribute("OllaApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OllaApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

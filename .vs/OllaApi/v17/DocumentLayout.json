@@ -82,8 +82,7 @@
               "RelativeToolTip": "OllaApi\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-16T05:41:44.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-16T05:41:44.938Z"
             },
             {
               "$type": "Document",
@@ -95,8 +94,7 @@
               "RelativeToolTip": "OllaApi\\Hubs\\ChatHub.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T05:13:16.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-16T05:13:16.017Z"
             },
             {
               "$type": "Document",
@@ -108,8 +106,7 @@
               "RelativeToolTip": "OllaApi\\Controllers\\ReferenceController.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAUwJQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T01:56:07.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T01:56:07.825Z"
             },
             {
               "$type": "Document",
@@ -121,8 +118,7 @@
               "RelativeToolTip": "OllaApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-14T01:48:59.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T01:48:59.566Z"
             },
             {
               "$type": "Document",
@@ -134,8 +130,7 @@
               "RelativeToolTip": "OllaApi\\Controllers\\AdminController.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAowAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T01:40:52.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T01:40:52.373Z"
             },
             {
               "$type": "Document",
@@ -147,8 +142,7 @@
               "RelativeToolTip": "OllaApi\\Controllers\\AdsController.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAcwFMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T01:40:32.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T01:40:32.047Z"
             },
             {
               "$type": "Document",
@@ -160,8 +154,7 @@
               "RelativeToolTip": "OllaApi\\Controllers\\AuthController.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAIwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T01:40:09.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T01:40:09.446Z"
             },
             {
               "$type": "Document",
@@ -171,7 +164,7 @@
               "RelativeDocumentMoniker": "OllaApi\\Program.cs",
               "ToolTip": "C:\\Users\\alex\\OneDrive\\Desktop\\OllaApi\\OllaApi\\Program.cs",
               "RelativeToolTip": "OllaApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-14T01:33:55.825Z",
               "EditorCaption": ""
@@ -186,8 +179,7 @@
               "RelativeToolTip": "OllaApi\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAA5wAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T01:29:30.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T01:29:30.821Z"
             }
           ]
         }

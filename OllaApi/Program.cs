@@ -4,15 +4,21 @@ using Microsoft.IdentityModel.Tokens;
 using OllaApi.Data;
 using OllaApi.Hubs;
 using System.Text;
+using Npgsql;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // === ПОДКЛЮЧЕНИЕ К SUPABASE (PostgreSQL) ===
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+    ?? builder.Configuration.GetConnectionString("Default");
+
+if (string.IsNullOrEmpty(connectionString))
+{
+    throw new InvalidOperationException("Connection string is missing!");
+}
+
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(
-        builder.Configuration.GetConnectionString("Default"),
-        npgsqlOptions => npgsqlOptions.EnableRetryOnFailure()
-    ));
+    options.UseNpgsql(connectionString, npgsqlOptions => npgsqlOptions.EnableRetryOnFailure()));
 
 // Controllers + Swagger
 builder.Services.AddControllers();
