@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\alex\\OneDrive\\Desktop\\OllaApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2567CE63-896A-4C12-8EA6-390EDBDE2425}|OllaApi\\OllaApi.csproj|c:\\users\\alex\\onedrive\\desktop\\ollaapi\\ollaapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2567CE63-896A-4C12-8EA6-390EDBDE2425}|OllaApi\\OllaApi.csproj|solutionrelative:ollaapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2567CE63-896A-4C12-8EA6-390EDBDE2425}|OllaApi\\OllaApi.csproj|c:\\users\\alex\\onedrive\\desktop\\ollaapi\\ollaapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2567CE63-896A-4C12-8EA6-390EDBDE2425}|OllaApi\\OllaApi.csproj|solutionrelative:ollaapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2567CE63-896A-4C12-8EA6-390EDBDE2425}|OllaApi\\OllaApi.csproj|c:\\users\\alex\\onedrive\\desktop\\ollaapi\\ollaapi\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2567CE63-896A-4C12-8EA6-390EDBDE2425}|OllaApi\\OllaApi.csproj|solutionrelative:ollaapi\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2567CE63-896A-4C12-8EA6-390EDBDE2425}|OllaApi\\OllaApi.csproj|c:\\users\\alex\\onedrive\\desktop\\ollaapi\\ollaapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2567CE63-896A-4C12-8EA6-390EDBDE2425}|OllaApi\\OllaApi.csproj|solutionrelative:ollaapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2567CE63-896A-4C12-8EA6-390EDBDE2425}|OllaApi\\OllaApi.csproj|c:\\users\\alex\\onedrive\\desktop\\ollaapi\\ollaapi\\controllers\\referencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2567CE63-896A-4C12-8EA6-390EDBDE2425}|OllaApi\\OllaApi.csproj|solutionrelative:ollaapi\\controllers\\referencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2567CE63-896A-4C12-8EA6-390EDBDE2425}|OllaApi\\OllaApi.csproj|c:\\users\\alex\\onedrive\\desktop\\ollaapi\\ollaapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2567CE63-896A-4C12-8EA6-390EDBDE2425}|OllaApi\\OllaApi.csproj|solutionrelative:ollaapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2567CE63-896A-4C12-8EA6-390EDBDE2425}|OllaApi\\OllaApi.csproj|c:\\users\\alex\\onedrive\\desktop\\ollaapi\\ollaapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2567CE63-896A-4C12-8EA6-390EDBDE2425}|OllaApi\\OllaApi.csproj|solutionrelative:ollaapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2567CE63-896A-4C12-8EA6-390EDBDE2425}|OllaApi\\OllaApi.csproj|c:\\users\\alex\\onedrive\\desktop\\ollaapi\\ollaapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 205,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +74,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\alex\\OneDrive\\Desktop\\OllaApi\\OllaApi\\Dockerfile",
+              "RelativeDocumentMoniker": "OllaApi\\Dockerfile",
+              "ToolTip": "C:\\Users\\alex\\OneDrive\\Desktop\\OllaApi\\OllaApi\\Dockerfile",
+              "RelativeToolTip": "OllaApi\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-16T05:41:44.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\OneDrive\\Desktop\\OllaApi\\OllaApi\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "OllaApi\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\alex\\OneDrive\\Desktop\\OllaApi\\OllaApi\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "OllaApi\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T05:13:16.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ReferenceController.cs",
               "DocumentMoniker": "C:\\Users\\alex\\OneDrive\\Desktop\\OllaApi\\OllaApi\\Controllers\\ReferenceController.cs",
               "RelativeDocumentMoniker": "OllaApi\\Controllers\\ReferenceController.cs",
@@ -78,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\alex\\OneDrive\\Desktop\\OllaApi\\OllaApi\\appsettings.json",
               "RelativeDocumentMoniker": "OllaApi\\appsettings.json",
@@ -90,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\alex\\OneDrive\\Desktop\\OllaApi\\OllaApi\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "OllaApi\\Controllers\\AdminController.cs",
@@ -102,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AdsController.cs",
               "DocumentMoniker": "C:\\Users\\alex\\OneDrive\\Desktop\\OllaApi\\OllaApi\\Controllers\\AdsController.cs",
               "RelativeDocumentMoniker": "OllaApi\\Controllers\\AdsController.cs",
@@ -120,13 +153,13 @@
               "RelativeDocumentMoniker": "OllaApi\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\alex\\OneDrive\\Desktop\\OllaApi\\OllaApi\\Controllers\\AuthController.cs",
               "RelativeToolTip": "OllaApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-14T01:40:09.446Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\alex\\OneDrive\\Desktop\\OllaApi\\OllaApi\\Program.cs",
               "RelativeDocumentMoniker": "OllaApi\\Program.cs",
@@ -138,16 +171,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\alex\\OneDrive\\Desktop\\OllaApi\\OllaApi\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "OllaApi\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\alex\\OneDrive\\Desktop\\OllaApi\\OllaApi\\Data\\AppDbContext.cs",
               "RelativeToolTip": "OllaApi\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA9wAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T01:29:30.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T01:29:30.821Z"
             }
           ]
         }
