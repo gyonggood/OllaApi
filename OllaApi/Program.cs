@@ -56,12 +56,8 @@ builder.Services.AddAuthorization(options =>
 
 var app = builder.Build();
 
-// Swagger только в разработке
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 app.UseCors();
@@ -71,5 +67,4 @@ app.UseAuthorization();
 app.MapControllers();
 app.MapHub<ChatHub>("/hubs/chat");
 
-app.MapGet("/", () => "OllaApi is running! Go to /swagger");
 app.Run();
