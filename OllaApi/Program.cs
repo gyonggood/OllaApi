@@ -71,4 +71,5 @@ app.UseAuthorization();
 app.MapControllers();
 app.MapHub<ChatHub>("/hubs/chat");
 
+app.MapGet("/", () => "OllaApi is running! Go to /swagger");
 app.Run();
