@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.EntityFrameworkCore;  // Добавь этот using
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using OllaApi.Data;
 using OllaApi.Hubs;
@@ -7,11 +7,11 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// DbContext с retry (чтобы не было transient ошибок)
+// === ПОДКЛЮЧЕНИЕ К SUPABASE (PostgreSQL) ===
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(
+    options.UseNpgsql(
         builder.Configuration.GetConnectionString("Default"),
-        sqlOptions => sqlOptions.EnableRetryOnFailure()  // <-- Это решает твою ошибку!
+        npgsqlOptions => npgsqlOptions.EnableRetryOnFailure()
     ));
 
 // Controllers + Swagger
@@ -19,15 +19,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// SignalR
+// SignalR для чата
 builder.Services.AddSignalR();
 
-// CORS
+// CORS (чтобы Android и другие клиенты могли подключаться)
 builder.Services.AddCors(options =>
     options.AddDefaultPolicy(p =>
-        p.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
+        p.AllowAnyOrigin()
+         .AllowAnyHeader()
+         .AllowAnyMethod()));
 
-// JWT
+// JWT аутентификация
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -48,6 +50,7 @@ builder.Services.AddAuthorization(options =>
 
 var app = builder.Build();
 
+// Swagger только в разработке
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
